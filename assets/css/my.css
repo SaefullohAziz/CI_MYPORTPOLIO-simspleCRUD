@@ -1,0 +1,95 @@
+hr{
+	border: 2px solid #222;
+}
+
+section
+{
+	min-height: 420px;
+}
+
+.navbar
+{
+	transition: 800ms;
+}
+.navbar-brand
+{
+	font-family: viga;
+	font-size: 32px;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+}
+
+.nav-item
+{
+	font-size: 18px;
+	font-family: lato;
+	font-weight: 500;
+}
+
+.jumbotron
+{
+  background: url('../img/bg-jumbotron.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 700px;
+  overflow: hidden;
+}
+
+.jumbotron h1 , .jumbotron p 
+{
+	color: #eaeaea;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+}
+
+.jumbotron h1
+{
+	font-family: viga;
+}
+
+.jumbotron p
+{
+	font-family: lato;
+}
+
+.jumbotron .container img
+{
+	object-fit: cover;
+	padding: 0px;
+	border: 5px solid #eaeaea;
+}
+
+
+.navbar .scrolled {
+	background: rgb(10.10.10);
+	transition: background 200ms linear;
+}
+
+.pKiri, .pKanan,
+.about , .contact,
+ .card, .card-title,
+ .card-text , .list-group-item,
+ .form-group
+  {
+	opacity: 0;
+	transform: translate(-50px, 0);
+	transition: 1s;
+}
+
+.about , .contact
+{
+	transform: translate(0, 30px);
+}
+
+.pKanan , .form-group{
+	transform: translate(50px,0);
+}
+
+.card
+{
+	transform: translate(0,-50px);	
+}
+
+.Muncul{
+	opacity: 1;
+	transform: translate(0.0);
+}
